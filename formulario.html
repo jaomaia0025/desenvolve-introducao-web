@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Formulario</title></head>
+    <body>
+        <header><h1>Formulario</h1> 
+        <h2>Insira suas informações abaixo.</h2>
+        </header>
+        <main>
+            <label for="nome-completo">Seu nome completo:</label> 
+            <input type="text" placeholder="Insira seu nome completo" id="nome-completo"/> 
+            <p>
+            <label for="email">Seu e-mail:</label>
+            <input type="email" placeholder="Insira seu e-mail" id="email"/>
+            </p>
+            <p>
+            <label for="numero">Numero</label>
+            <input type="number" placeholder="Insira seu numero" id="numero">
+            </p>
+            <div> 
+            Estado Civil: <br>
+        <input type="radio" id="solteiro" name="estadocivil">
+        <label for="solteiro">Solteiro</label>
+            <br>
+        <input type="radio" id="namorando" name="estadocivil">
+        <label for="namorando">Namorando</label>
+        <br>
+        <input type="radio" id="casado" name="estadocivil">
+        <label for="casado">Casado</label>
+        <br>
+        <input type="radio" id="divorciado" name="estadocivil">
+        <label for="divorciado">Divorciado</label>
+            </div>
+            <div>
+        <br>
+        Possui filhos?: <br>
+        <input type="radio" id="sim" name="filhos">
+        <label for="sim">Sim</label>
+        <br>
+        <input type="radio" id="nao" name="filhos">
+        <label for="nao">Não</label>
+            </div>
+        <div>
+         <br>   De qual estado você é?:
+        <select>
+  <option>Acre</option>
+  <option>Alagoas</option>
+  <option>Amapá</option>
+  <option>Amazonas</option>
+  <option>Bahia</option>
+  <option>Ceará</option>
+  <option>Distrito Federal</option>
+  <option>Espírito Santo</option>
+  <option>Goiás</option>
+  <option>Maranhão</option>
+  <option>Mato Grosso</option>
+  <option>Mato Grosso do Sul</option>
+  <option>Minas Gerais</option>
+  <option>Pará</option>
+  <option>Paraíba</option>
+  <option>Paraná</option>
+  <option>Pernambuco</option>
+  <option>Piauí</option>
+  <option>Rio de Janeiro</option>
+  <option>Rio Grande do Norte</option>
+  <option>Rio Grande do Sul</option>
+  <option>Rondônia</option>
+  <option>Roraima</option>
+  <option>Santa Catarina</option>
+  <option>São Paulo</option>
+  <option>Sergipe</option>
+  <option>Tocantins</option>
+</select>
+    </div>
+    
+    <div> <br>
+     <input type="checkbox" id="sim-autorizo">
+     <label for="autorizaçao">Autorizo o compartilhamento das minhas respostas com terceiros</label>
+
+    </div>
+     <div> 
+        <br>
+        <form action="pag2.html" method="post"> <input type="submit" value="Confirmar" ></form>
+        
+     </div>
+            </main>
+    </body>
+</html>
