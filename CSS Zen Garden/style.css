@@ -10,30 +10,57 @@ body {
   color: #43738b; 
   line-height: 1.6;
   font-size: 16px;
+  width: 80%;                     
+  max-width: 1280px;              
+  margin: 0 auto;                 
+}
+
+#introducao {
+  height: 550px;                  
+}
+
+#design-archives {
+  display: none;
 }
 
 header {
-  background-color: #b3e5fc; 
+  background-color: #052b48;       
+  color: #ffffff;                  
   padding: 3rem 0;
   text-align: center;
   border-bottom: 3px solid #01579b; 
+  display: flex;                   
+  justify-content: center;
+  align-items: center;
+  gap: 1em;                        
 }
 
 header h1 {
   font-size: 1.8rem;
-  color: #052b48; 
+  color: #ffffff; 
   margin-bottom: 0.5rem;
   letter-spacing: 1px;
+  padding-left: 1em;              
 }
 
 header p {
   font-size: 1.2rem;
-  color: #0288d1; 
+  color: #b3e5fc; 
 }
 
 nav {
   margin: 2rem 0;
   text-align: center;
+}
+
+nav ul {
+  list-style: none;              
+  padding: 0;
+}
+
+nav li {
+  margin: 1em 0;                  
+  text-align: center;             
 }
 
 nav a {
@@ -100,7 +127,7 @@ button:hover, .btn:hover {
   transform: translateY(-2px);
 }
 
-abbr{
+abbr {
   color: rgba(227, 21, 189, 0.974);
   font-variant: small-caps;
   font-feature-settings: "smcp" 1;
@@ -109,8 +136,25 @@ abbr{
 footer {
   text-align: center;
   padding: 2rem 0;
-  background-color: #b3e5fc;
+  background-color: #052b48;   
   border-top: 3px solid #01579b;
-  color: #0288d1;
+  color: #ffffff;
   font-size: 0.9rem;
+  margin: 4% 0;                
 }
+
+footer a {
+  display: inline-block;
+  border: 2px solid #ffffff;   
+  padding: 0.5em;              
+  margin: 0.5em;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+footer a:hover {
+  background: #ffffff;
+  color: #052b48;
+}
+
