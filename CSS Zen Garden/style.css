@@ -158,3 +158,29 @@ footer a:hover {
   color: #052b48;
 }
 
+.page-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.explanation {
+  width: 60%;                        
+  margin-right: 35%;                 
+  border-right: 1px solid #1f295c;   
+  padding-right: 2%;                 
+  box-sizing: border-box;
+}
+
+#design-selection {
+  position: absolute;
+  top: 690px;
+  left: 58%;      
+  width: 45%;         
+  padding: 0 2%;      
+  box-sizing: border-box;
+  text-align: center;
+
+ 
+  line-height: 0.7; 
+}
+ 
