@@ -158,3 +158,95 @@ footer a:hover {
   color: #052b48;
 }
 
+.page-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.explanation {
+  width: 60%;                        
+  margin-right: 35%;                 
+  border-right: 1px solid #1f295c;   
+  padding-right: 2%;                 
+  box-sizing: border-box;
+}
+
+#design-selection {
+  position: absolute;
+  top: 690px;
+  left: 58%;      
+  width: 45%;         
+  padding: 0 2%;      
+  box-sizing: border-box;
+  text-align: center;
+
+ 
+  line-height: 0.7; 
+}
+ 
+
+.main.supporting footer {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;                  
+  flex-wrap: wrap;            
+}
+
+.main.supporting footer a {
+  flex: 0 1 120px;             
+  text-align: center;
+  padding: 0.5em;
+  background: #0288d1;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.main.supporting footer a:hover {
+  background: #01579b;
+}
+
+.benefits {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;         
+  border-top: 2px solid #1f295c;
+  border-bottom: 2px solid #1f295c;
+  padding: 2em 0;
+}
+
+.benefits p {
+  flex: 0 0 70%;                
+}
+
+.benefits h3 {
+  flex: 0 0 30%;               
+  text-align: center;
+  margin: 0;
+}
+
+.participation {
+  display: flex;
+  border-top: 2px solid #1f295c;
+  border-bottom: 2px solid #1f295c;
+  padding: 2em 0;
+  gap: 2%;                  
+}
+
+.participation h3 {
+  flex: 0 0 30%;             
+  display: flex;
+  align-items: center;      
+  justify-content: center;   
+  margin: 0;
+  text-align: center;
+}
+
+.participation p {
+  flex: 1;                   
+  margin-bottom: 1em;
+}
+
+.benefits + .participation {
+  border-top: none;
+}
