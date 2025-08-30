@@ -173,7 +173,7 @@ footer a:hover {
 
 #design-selection {
   position: absolute;
-  top: 690px;
+  top: 675px;
   left: 58%;      
   width: 45%;         
   padding: 0 2%;      
@@ -181,7 +181,7 @@ footer a:hover {
   text-align: center;
 
  
-  line-height: 0.7; 
+  line-height: 0.5; 
 }
  
 
@@ -249,4 +249,38 @@ footer a:hover {
 
 .benefits + .participation {
   border-top: none;
+}
+
+
+a {
+  color: #0288d1;       
+  font-weight: bold;    
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #01579b;       
+}
+
+a:visited {
+  color: #4fc3f7;
+  font-weight: normal;
+}
+
+.main.supporting p:first-of-type::first-letter {
+  font-size: 3em;         
+  font-family: Georgia, serif;  
+  float: left;           
+  line-height: 1;         
+  margin-right: 0.2em;    
+}
+
+#design-selection ul li {
+  border-top: 1px solid #1f295c;  
+  padding: 0.2em 0;
+}
+
+#design-selection ul li:last-child {
+  border-bottom: 1px solid #1f295c;  
 }
