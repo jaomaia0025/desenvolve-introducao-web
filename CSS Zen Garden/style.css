@@ -284,3 +284,61 @@ a:visited {
 #design-selection ul li:last-child {
   border-bottom: 1px solid #1f295c;  
 }
+
+@media (max-width: 768px) {
+
+  #design-selection {
+    position: static;   
+    width: 100%;        
+    padding: 0;         
+  }
+
+  .explanation {
+    border-right: none;
+    margin-right: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .page-wrapper,
+  .benefits,
+  .participation {
+    flex-direction: column;   
+    align-items: stretch;   
+  }
+
+  header {
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  p {
+    text-indent: 0;
+  }
+}
+
+
+
+@media print {
+  body {
+    font-family: "Times New Roman", Times, serif;
+    background: #fff;
+    color: #000;
+  }
+
+  header {
+    background: #fff;
+    color: #000;
+    border-bottom: 1px solid #000;
+  }
+
+  header h1, header h2 {
+    color: #000;
+  }
+
+  a {
+    color: #000;
+    font-weight: normal;
+    text-decoration: underline;
+  }
+}
